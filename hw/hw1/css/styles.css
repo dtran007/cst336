@@ -1,0 +1,102 @@
+body {
+    background-color: grey;
+    color: white;
+    font-size: 120%;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+nav a { 
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; 
+    color: yellow; 
+}
+
+nav a:hover { /*pseudo class*/
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s; 
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.indented {
+    text-indent: 50px;
+}
+
+h1 {
+    font-family: 'Charmonman', cursive;
+    color: #7FFF00;
+    font-size: 300%
+}
+
+h2 {
+    font-family: 'Charmonman', cursive;
+    color: #4c4cff;
+    font-size: 250%
+    
+}
+
+#references {
+    font-weight: bold;
+    color: yellow;
+}
+
+footer {
+    clear: left;
+    font-size: smaller;
+    color: #00ff00;
+}
+
+
+
+.tuxlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.inversecolor {
+    background-color: white;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ul {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+strong {
+    color: black;
+}
