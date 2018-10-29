@@ -29,7 +29,8 @@
         <div id="content">
             <div id="labs">
                 <h2>Labs</h2>
-                <a href="labs/lab1/index.html">Lab 1 </a>
+                <a href="labs/lab1/index.html">Lab 1 </a><br>
+                <a href="labs/lab2/index.php"> Lab2</a><br>
             </div>
         
             <div id="homeworks">
