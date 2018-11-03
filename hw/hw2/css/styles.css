@@ -1,0 +1,95 @@
+
+body {
+    background-color: green;
+}
+
+
+
+#title {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: lightgray;
+    text-align:center;
+    z-index:1;
+}
+
+.label {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+
+.row {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.clear {
+    clear: both;
+}
+
+.white, .black {
+    border:1px solid black;
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+        background-color: #787878;
+}
+
+.container {
+    margin: 15% auto;
+}
+
+input {
+    top:600px;
+    left:530px;
+    position:absolute;
+    font-size:1.3em;
+    background-color: transparent;
+    border:solid;
+    outline:none; 
+    font-weight:bold;
+    color:yellow;
+    cursor:pointer;
+}
+
+
+#coin {
+    position: absolute;
+    left: 27%;
+}
+
+.results {
+    position: absolute;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: bold;
+    
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+   
+}
