@@ -36,6 +36,7 @@
             <div id="homeworks">
                 <h2>Homeworks</h2>
                 <a href="hw/hw1/index.html">Homework 1</a>
+                <a href="hw/hw2/index.php">Homework 2</a>
             </div>
         </div>
     
