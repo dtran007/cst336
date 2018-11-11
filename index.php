@@ -37,7 +37,8 @@
             <div id="homeworks">
                 <h2>Homeworks</h2>
                 <a href="hw/hw1/index.html">Homework 1</a><br>
-                <a href="hw/hw2/index.php">Homework 2</a>
+                <a href="hw/hw2/index.php">Homework 2</a><br>
+                <a href="hw/hw3/index.php">Homework 3</a><br>
             </div>
         </div>
     

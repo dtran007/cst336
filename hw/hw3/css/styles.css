@@ -1,0 +1,55 @@
+
+td {
+    text-align:center;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+body {
+    text-align: center;
+    
+    background-image: url('../img/oak.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right; 
+    background-color: lightyellow;
+    
+}
+form {
+    display: inline-block;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+.warningText {
+    color: green;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+#spanone {
+    color: red;
+}
+
+#spantwo {
+    color: blue;
+    
+}
+
+#spanthree {
+    color: green;
+}
+
+#trainerResult {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+#congrats {
+    color: purple;
+    font-weight: bold;
+    font-size: 200%;
+}
