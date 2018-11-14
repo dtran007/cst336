@@ -27,9 +27,9 @@ function displayResults() {
             //Check to see if most recent POST request has same itemID
             //If so, this item was just added to cart. Display Different button
             if($_POST['itemID'] == $itemId) {
-                echo '<td><button class="btn btn-success">Added</button></td>';
+                echo '<td><button class="btn btn-success" style="opacity:0.6">Added</button></td>';
             } else {
-                echo '<td><button class="btn btn-warning">Add</button></td>';
+                echo '<td><button class="btn btn-warning" style="background-color:#4CAF50">Add</button></td>';
             }
             echo "</form>";
             
