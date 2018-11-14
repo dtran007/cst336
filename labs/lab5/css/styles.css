@@ -1,0 +1,45 @@
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: lawngreen;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    
+}
+
+select {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table, th, td {
+   border: 1px solid green;
+   border-radius: 5px;
+}
+
+a:link {
+    color: mediumseagreen;
+}
+
+a:visited {
+    color: palegreen;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: blue;
+} 

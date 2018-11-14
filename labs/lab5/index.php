@@ -32,7 +32,6 @@ function displaySearchResults() {
         
         if(!empty($_GET['product'])) { //Checks whether user has typed something in "product" text box
             $sql .= " AND productName LIKE :productName";
-           // $sql .= " OR productDescription LIKE :productName)";
             $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
         }
         
@@ -63,13 +62,18 @@ function displaySearchResults() {
         $stmt->execute($namedParameters);
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
+        echo "<table>";
+        
         foreach($records as $record) {
-            //echo "<b>" . $record["productName"] . "</b><br />" . $record["productDescription"] . "<br /><b>$" . $record["price"] . "</b><br />";
+            echo "<tr><td>";
             echo "<a href=\"purchaseHistory.php?productId=".$record["productId"]. "\">History</a>";
-            
+            echo "</td>";
+            echo "<td>";
             echo  $record["productName"] . " " . $record["productDescription"] . " $" . $record["price"] . "<br /><br />";
-
+            echo "</td></tr>";
         }
+        
+        echo "</table>";
     }
 }
 
