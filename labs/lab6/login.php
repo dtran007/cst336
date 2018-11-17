@@ -4,10 +4,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            body {text-align: center;}
+            form {display: inline-block;}
+            body {background-color: DeepSkyBlue;}
+        </style>
         <title>Otter Mart - Admin Site</title>
     </head>
     <body>
-        
+        <h1>Otter Mart - Admin Site Login</h1><br><br>
   
 
 
