@@ -35,6 +35,7 @@
                 <a href="labs/lab4/index.php">Lab 4</a><br>
                 <a href="labs/lab5/index.php">Lab 5</a><br>
                 <a href="labs/lab6/login.php">Lab 6</a><br>
+                <a href="labs/lab7/index.php">Lab 7</a><br>
             </div>
         
             <div id="homeworks">
