@@ -43,7 +43,7 @@
                 <a href="hw/hw1/index.html">Homework 1</a><br>
                 <a href="hw/hw2/index.php">Homework 2</a><br>
                 <a href="hw/hw3/index.php">Homework 3</a><br>
-                <a href="hw/hw3/index.html">Homework 4</a><br>
+                <a href="hw/hw4/index.html">Homework 4</a><br>
             </div>
         </div>
     
