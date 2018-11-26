@@ -1,0 +1,16 @@
+
+#gameScreen{
+	position: relative;
+	background-color: silver;
+	overflow: hidden;
+	margin: auto;
+}
+
+.gameObject{
+	position: absolute;
+	z-index: 1;
+}
+
+h1, h2 {
+	text-align: center;
+}
