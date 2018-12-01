@@ -27,38 +27,77 @@ function init(){
 	bg1 = document.createElement('IMG');
 	bg1.className = 'gameObject';
 	bg1.src = 'bg.jpg';
-	bg1.style.width = '800px';
-	bg1.style.height = '1422px';
-	bg1.style.left = '0px';
-	bg1.style.top = '0px';
-	gameScreen.appendChild(bg1);
+	
+	// bg1.style.width = '800px';
+	$(bg1).css("width", "800px");
+	
+	// bg1.style.height = '1422px';
+	$(bg1).css("height", "1422px");
+	
+	// bg1.style.left = '0px';
+	$(bg1).css("left", "0px");
+	
+	// bg1.style.top = '0px';
+	$(bg1).css("top", "0px");
+	
+	//gameScreen.appendChild(bg1);
+	$('#gameScreen').append(bg1);
 	
 	bg2 = document.createElement('IMG');
 	bg2.className = 'gameObject';
 	bg2.src = 'bg.jpg';
-	bg2.style.width = '800px';
-	bg2.style.height = '1422px';
-	bg2.style.left = '0px';
-	bg2.style.top = '-1422px';
-	gameScreen.appendChild(bg2);
+	
+	// bg2.style.width = '800px';
+	$(bg2).css("width", "800px");
+	
+	// bg2.style.height = '1422px';
+	$(bg2).css("height", "1422px");
+	
+	// bg2.style.left = '0px';
+	$(bg2).css("left", "0px");
+	
+	// bg2.style.top = '-1422px';
+	$(bg2).css("top", "-1422px");
+	
+	//gameScreen.appendChild(bg2);
+	$('#gameScreen').append(bg2);
 	
 	bullets = document.createElement('DIV');
 	bullets.className = 'gameObject';
-	bullets.style.width = gameScreen.style.width;
-	bullets.style.height = gameScreen.style.height;
-	bullets.style.left = '0px';
-	bullets.style.top = '0px';
+	
+	// bullets.style.width = gameScreen.style.width;
+	$(bullets).css("width", $(gameScreen).css("width"));
+	
+	// bullets.style.height = gameScreen.style.height;
+	$(bullets).css("height", $(gameScreen).css("height"));
+	
+	// bullets.style.left = '0px';
+	$(bullets).css("left", "0px");
+	
+	// bullets.style.top = '0px';
+	$(bullets).css("top", "0px");
+	
 	gameScreen.appendChild(bullets);
+	$('#gameScreen').append(bullets);
 
 	output = document.getElementById('output');
 
 	ship = document.createElement('IMG');
 	ship.src = 'ship.gif';
 	ship.className = 'gameObject';
-	ship.style.width = '68px';
-	ship.style.height = '68px';
-	ship.style.top = '500px';
-	ship.style.left = '366px';
+	
+	// ship.style.width = '68px';
+	$(ship).css("width", "68px");
+	
+	// ship.style.height = '68px';
+	$(ship).css("height", "68px");
+	
+	// ship.style.top = '500px';
+	$(ship).css("top", "500px");
+	
+	// ship.style.left = '366px';
+	$(ship).css("left", "366px");
+		
 
 	gameScreen.appendChild(ship);
 	
@@ -155,11 +194,22 @@ function explode(obj) {
 	var explosion = document.createElement('IMG');
 	explosion.src = 'explosion.gif?x=' + Date.now();
 	explosion.className = 'gameObject';
-	explosion.style.width = obj.style.width;
-	explosion.style.height = obj.style.height;
-	explosion.style.left = obj.style.left;
-	explosion.style.top = obj.style.top;
-	gameScreen.appendChild(explosion);
+	
+	// explosion.style.width = obj.style.width;
+	$(explosion).css("width", $(obj).css("width"));
+	
+	// explosion.style.height = obj.style.height;
+	$(explosion).css("height", $(obj).css("height"));
+	
+	// explosion.style.left = obj.style.left;
+	$(explosion).css("left", $(obj).css("left"));
+	
+	// explosion.style.top = obj.style.top;
+	$(explosion).css("top", $(obj).css("top"));
+	
+	//gameScreen.appendChild(explosion);
+	$('#gameScreen').append(explosion);
+	
 }
 
 function fire() {
