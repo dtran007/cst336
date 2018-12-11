@@ -13,7 +13,7 @@
         
             #labs, #homeworks {
                 float: left;
-                padding-left: 25px;
+                padding-left: 5px;
             }
         </style>
         
@@ -44,8 +44,19 @@
                 <a href="hw/hw1/index.html">Homework 1</a><br>
                 <a href="hw/hw2/index.php">Homework 2</a><br>
                 <a href="hw/hw3/index.php">Homework 3</a><br>
-                <a href="hw/hw4/index.html">Homework 4</a><br>
+                <a href="hw/hw4/index.html">Homework 4</a>
+            
+        
+            
+            <div id="final">
+                <h2>Final Project</h2>
+                <a href="https://ssl336final.herokuapp.com/">Final Project</a>
             </div>
+        
+            </div>
+           
+                
+           
         </div>
     
     
